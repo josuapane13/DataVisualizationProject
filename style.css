@@ -1,0 +1,46 @@
+/* style.css */
+/* Menyembunyikan semua anchor link */
+a {
+    display: none;
+}
+
+/* CSS untuk kartu metric - Changed from red to blue */
+.metric-card {
+    background-color: #0066CC;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%;
+}
+.metric-card h5 {
+    margin: 0;
+    color: #fff;
+}
+.metric-card h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.plot-container {
+    border: 2px solid #0066CC; /* Changed from red to blue */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: border-box; /* Pastikan padding dihitung dalam ukuran elemen */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
